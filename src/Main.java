@@ -6,6 +6,10 @@ public class Main {
         System.out.println("Общий вес бойцов " + totalWeight + " кг");
         var differenceWeigh = firstBoxerWeight - secondBoxerWeight;
         System.out.println("Разница между весами бойцов " + differenceWeigh + " кг");
+        var firstMethod = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Разница между весами бойцов " + firstMethod + " кг");
+        var secondMethod = secondBoxerWeight % firstBoxerWeight;
+        System.out.println("Второй боец весит больше на " + secondMethod + " кг");
 
 
     }
